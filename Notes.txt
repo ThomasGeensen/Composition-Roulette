@@ -1,0 +1,17 @@
+Random function should happen in PYTHON so I can specify a specific range of numbers from a dictionary from which to
+pick a random number which will then be used in a query as an ID number. This way the categorization can happen within
+the dictionary
+
+OR
+
+the random row will be selected by SQLITE3 so I can use SQL commands (group by, etc) to handle the categorization
+but this might not work considering SQL's random function is done by "ORDER BY RANDOM()"
+
+try both see what works best
+
+
+
+Version 0.0.1:
+    Ability to return a random instrument from a database (CompositionRoulette.db) into console
+
+
